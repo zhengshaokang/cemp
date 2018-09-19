@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhlx.cemp.mapper.UserMenuMapper" >
+  <resultMap id="BaseResultMap" type="com.zhlx.cemp.model.UserMenu" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="parent_id" property="parentId" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="CHAR" />
+    <result column="level" property="level" jdbcType="SMALLINT" />
+    <result column="sort" property="sort" jdbcType="SMALLINT" />
+    <result column="link" property="link" jdbcType="VARCHAR" />
+    <result column="uris" property="uris" jdbcType="VARCHAR" />
+    <result column="target" property="target" jdbcType="VARCHAR" />
+    <result column="icon" property="icon" jdbcType="VARCHAR" />
+    <result column="deleted" property="deleted" jdbcType="CHAR" />
+  </resultMap>
+</mapper>
